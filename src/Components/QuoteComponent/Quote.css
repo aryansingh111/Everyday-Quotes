@@ -1,0 +1,68 @@
+.Head{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Head h1{
+    text-decoration: underline;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 130px;
+    background: #625ac4;
+    width: 800px;
+    border-radius: 15px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.icons img{
+    height: 36px;
+    cursor: pointer;
+}
+
+.quote{
+    padding: 60px 110px;
+    color: #ffffff;
+    font-size: 32px;
+
+}
+
+.line{
+    width: 680px;
+    height: 1.5px;
+    background: #ffffff;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.author{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Foot{
+    position: fixed;
+    bottom: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
